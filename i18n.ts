@@ -1,7 +1,7 @@
 import { getRequestConfig } from 'next-intl/server'
 
 export const routing = {
-  locales: ['fa', 'en'],
+  locales: ['fa'],
   defaultLocale: 'fa'
 }
 

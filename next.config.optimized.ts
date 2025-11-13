@@ -72,7 +72,6 @@ const nextConfig: NextConfig = {
 
   // Image Optimization
   images: {
-    domains: ['m2gh.ir', 'www.m2gh.ir'],
     remotePatterns: [
       {
         protocol: 'https',
@@ -218,9 +217,9 @@ const nextConfig: NextConfig = {
 
   // Internationalization (i18n)
   i18n: {
-    locales: ['en', 'fa'],
-    defaultLocale: 'en',
-    localeDetection: true,
+    locales: ['fa'],
+    defaultLocale: 'fa',
+    localeDetection: false,
   },
 
   // Environment Variables

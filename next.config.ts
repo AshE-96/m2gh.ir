@@ -5,7 +5,6 @@ const nextConfig: NextConfig = {
     optimizePackageImports: ['lucide-react'],
   },
   images: {
-    domains: ['m2gh.ir', 'source.unsplash.com', 'picsum.photos'],
     remotePatterns: [
       {
         protocol: 'https',
