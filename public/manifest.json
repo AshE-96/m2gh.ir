@@ -1,0 +1,27 @@
+{
+  "name": "محمد مهدی قنبری | Mohammad Mehdi Ghanbari",
+  "short_name": "مهدی قنبری",
+  "description": "پورتفولیوی شخصی محمد مهدی قنبری - مدیر محصول و تحلیل‌گر داده",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#061316",
+  "theme_color": "#06d6a0",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "/assets/icons/icon-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/assets/icons/icon-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "lang": "fa",
+  "dir": "rtl",
+  "categories": ["portfolio", "business", "productivity"]
+}

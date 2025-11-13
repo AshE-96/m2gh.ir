@@ -1,0 +1,31 @@
+# robots.txt for m2gh.ir
+# Updated: 2025-01-13
+
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://m2gh.ir/sitemap.xml
+
+# Disallow admin and private areas
+Disallow: /api/
+Disallow: /_next/
+Disallow: /admin/
+
+# Allow all public assets
+Allow: /public/
+Allow: /assets/
+Allow: /images/
+
+# Crawl-delay for respectful crawling
+Crawl-delay: 0.5
+
+# Specific bot rules
+User-agent: Googlebot
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+User-agent: Slurp
+Allow: /

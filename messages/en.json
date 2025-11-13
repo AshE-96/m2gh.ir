@@ -1,0 +1,70 @@
+{
+  "common": {
+    "loading": "Loading...",
+    "error": "An error occurred",
+    "retry": "Try again"
+  },
+  "nav": {
+    "home": "Home",
+    "about": "About",
+    "projects": "Projects",
+    "blog": "Blog",
+    "contact": "Contact"
+  },
+  "home": {
+    "title": "Mohammad Mehdi Ghanbari",
+    "subtitle": "Product Manager & Data Analyst",
+    "bio": "My journey spans from creating innovative solutions and startups to confronting difficult challenges.",
+    "buttons": {
+      "linkedin": "LinkedIn",
+      "github": "GitHub",
+      "projects": "Projects",
+      "about": "About Me",
+      "blog": "Blog",
+      "contact": "Contact"
+    }
+  },
+  "about": {
+    "title": "About Me",
+    "subtitle": "Product Manager & Data Analyst",
+    "bio": "Manager and data analyst specializing in innovative technology solutions, product development and advanced data analysis. Over 5 years of experience in the technology industry.",
+    "experience": "Work Experience",
+    "skills": "Skills",
+    "education": "Education"
+  },
+  "projects": {
+    "title": "Projects",
+    "subtitle": "A showcase of successful projects and work experiences",
+    "all": "All Projects",
+    "active": "Active",
+    "completed": "Completed",
+    "planning": "Planning"
+  },
+  "blog": {
+    "title": "Blog",
+    "subtitle": "Thoughts and insights on technology, products, and data",
+    "readMore": "Read More",
+    "published": "Published",
+    "author": "Author",
+    "tags": "Tags"
+  },
+  "contact": {
+    "title": "Contact",
+    "subtitle": "Let's work together and turn your ideas into reality",
+    "form": {
+      "name": "Name *",
+      "email": "Email *",
+      "subject": "Subject",
+      "message": "Message *",
+      "submit": "Send Message"
+    },
+    "info": {
+      "title": "Contact Information",
+      "location": "Location",
+      "email": "Email",
+      "response": "Response time"
+    },
+    "success": "Message sent successfully!",
+    "error": "Error sending message. Please try again."
+  }
+}

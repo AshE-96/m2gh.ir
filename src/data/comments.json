@@ -1,0 +1,21 @@
+[
+    {
+        "id": "688d0a0f12da5",
+        "article_id": "default",
+        "name": "سی",
+        "email": "sdsds@gdfgsdf.com",
+        "comment": "سشیسی",
+        "date": "2025-08-01 18:40:15",
+        "persian_date": "1404\/8\/1",
+        "status": "approved",
+        "replies": [
+            {
+                "id": "68a76fbd20dfc",
+                "text": "این سیستم رو برام درست بکن",
+                "date": "2025-08-21 19:13:01",
+                "persian_date": "1404\/8\/21",
+                "author": "مدیر سایت"
+            }
+        ]
+    }
+]

@@ -1,0 +1,26 @@
+[
+    {
+        "timestamp": "2025-08-01 19:21:31",
+        "username": "admin",
+        "action": "login",
+        "status": "successful",
+        "ip": "::1",
+        "user_agent": "Mozilla\/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit\/605.1.15 (KHTML, like Gecko) Version\/18.5 Safari\/605.1.15"
+    },
+    {
+        "timestamp": "2025-08-21 19:10:59",
+        "username": "mehdi",
+        "action": "login",
+        "status": "failed",
+        "ip": "::1",
+        "user_agent": "Mozilla\/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit\/605.1.15 (KHTML, like Gecko) Version\/18.5 Safari\/605.1.15"
+    },
+    {
+        "timestamp": "2025-08-21 19:11:04",
+        "username": "mehdi",
+        "action": "login",
+        "status": "successful",
+        "ip": "::1",
+        "user_agent": "Mozilla\/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit\/605.1.15 (KHTML, like Gecko) Version\/18.5 Safari\/605.1.15"
+    }
+]

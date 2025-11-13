@@ -1,0 +1,19 @@
+{
+    "total_views": 0,
+    "pages": {
+        "index": {
+            "views": 0,
+            "last_view": null
+        },
+        "projects": {
+            "views": 0,
+            "last_view": null
+        },
+        "contact": {
+            "views": 0,
+            "last_view": null
+        }
+    },
+    "daily_stats": [],
+    "monthly_stats": []
+}

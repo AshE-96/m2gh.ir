@@ -1,0 +1,21 @@
+[
+  {
+    "id": "test_001",
+    "article_id": "test-article",
+    "name": "کاربر تست",
+    "email": "test@example.com",
+    "comment": "این یک کامنت تست برای بررسی سیستم کامنت است",
+    "date": "2024-01-15 10:30:00",
+    "persian_date": "1402/10/25",
+    "status": "pending"
+  },
+  {
+    "id": "1763046918750nzq3tzvk3",
+    "article_id": "1",
+    "name": "psds",
+    "email": "sdsd@gmail.com",
+    "comment": "sdsd",
+    "date": "2025-11-13T15:15:18.750Z",
+    "status": "pending"
+  }
+]
