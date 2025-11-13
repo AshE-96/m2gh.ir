@@ -187,9 +187,9 @@ export default async function ArticlePage({
         readingTime={article.reading_time || 8}
       />
 
-      <main className="article-layout max-w-[1400px] mx-auto py-16 px-8 grid grid-cols-1 lg:grid-cols-[1fr_780px_300px] gap-12 relative z-10 bg-bg">
-        <div></div>
-        <article className="article-content">
+      <main className="article-layout max-w-[1400px] mx-auto py-8 md:py-16 px-4 md:px-8 grid grid-cols-1 lg:grid-cols-[1fr_780px_300px] gap-6 md:gap-12 relative z-10 bg-bg">
+        <div className="hidden lg:block"></div>
+        <article className="article-content w-full max-w-full overflow-x-hidden">
           {/* Article Content */}
           <ArticleContent />
         </article>

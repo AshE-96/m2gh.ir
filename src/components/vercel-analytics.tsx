@@ -6,7 +6,10 @@ import { Analytics } from "@vercel/analytics/next"
 export default function VercelAnalytics() {
   return (
     <>
-      <SpeedInsights />
+      <SpeedInsights 
+        sampleRate={1}
+        framework="nextjs"
+      />
       <Analytics />
     </>
   )

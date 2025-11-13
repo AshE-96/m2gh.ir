@@ -27,8 +27,8 @@ export default function ArticleHeader({
   readingTime
 }: ArticleHeaderProps) {
   return (
-    <header className="article-header relative min-h-screen flex items-center justify-center overflow-hidden bg-bg">
-      <div className="header-content relative z-10 max-w-[780px] mx-auto px-8 text-center">
+    <header className="article-header relative min-h-[60vh] md:min-h-screen flex items-center justify-center overflow-hidden bg-bg">
+      <div className="header-content relative z-10 max-w-[780px] mx-auto px-4 md:px-8 text-center py-8 md:py-0">
         {/* Badge */}
         <span className="article-badge inline-flex items-center gap-2 px-5 py-2 rounded-full text-sm font-semibold mb-8">
           <span className="w-1.5 h-1.5 bg-bg rounded-full" />
@@ -36,17 +36,17 @@ export default function ArticleHeader({
         </span>
 
         {/* Title */}
-        <h1 className="article-title text-[clamp(2.5rem,6vw,4.5rem)] font-black leading-[1.1] mb-8 text-text">
+        <h1 className="article-title text-[clamp(1.75rem,5vw,4.5rem)] md:text-[clamp(2.5rem,6vw,4.5rem)] font-black leading-[1.1] mb-6 md:mb-8 text-text">
           {title}
         </h1>
 
         {/* Excerpt */}
-        <p className="article-excerpt text-xl text-text-secondary mb-6">
+        <p className="article-excerpt text-base md:text-xl text-text-secondary mb-6">
           {excerpt}
         </p>
 
         {/* Meta Items - Separate, not in a box */}
-        <div className="article-meta-items flex flex-wrap justify-center items-center gap-6 mb-12">
+        <div className="article-meta-items flex flex-wrap justify-center items-center gap-3 md:gap-6 mb-8 md:mb-12">
           <div className="meta-item flex items-center gap-2">
             <svg className="meta-icon-small w-4 h-4 text-accent" viewBox="0 0 24 24" fill="currentColor">
               <path d="M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z"/>
