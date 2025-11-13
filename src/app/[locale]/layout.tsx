@@ -3,10 +3,9 @@ import { NextIntlClientProvider } from 'next-intl';
 import { getMessages } from 'next-intl/server';
 import { notFound } from 'next/navigation';
 import { routing } from '@/lib/i18n';
-import { SpeedInsights } from "@vercel/speed-insights/next";
-import { Analytics } from "@vercel/analytics/next";
 import ParticlesBackground from "@/components/ui/particles-background";
 import Header from "@/components/layout/header";
+import VercelAnalytics from "@/components/vercel-analytics";
 import "./globals.css";
 
 export const metadata: Metadata = {
@@ -62,8 +61,7 @@ export default async function RootLayout({
           <ParticlesBackground />
           <Header />
           {children}
-          <SpeedInsights />
-          <Analytics />
+          <VercelAnalytics />
         </NextIntlClientProvider>
       </body>
     </html>
