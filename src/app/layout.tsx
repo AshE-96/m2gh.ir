@@ -1,4 +1,6 @@
 import type { Metadata } from "next";
+import { SpeedInsights } from "@vercel/speed-insights/next";
+import { Analytics } from "@vercel/analytics/next";
 import ParticlesBackground from "@/components/ui/particles-background";
 import Header from "@/components/layout/header";
 import "./globals.css";
@@ -42,6 +44,8 @@ export default function RootLayout({
         <ParticlesBackground />
         <Header />
         {children}
+        <SpeedInsights />
+        <Analytics />
       </body>
     </html>
   );
